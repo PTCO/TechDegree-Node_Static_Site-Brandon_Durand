@@ -1,0 +1,18 @@
+{
+  "name": "techdegree-node_static_site-brandon_durand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2"
+  }
+}

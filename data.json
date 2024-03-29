@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Employee Directory",
+            "description": "A employee directory site, for employers to present their employee information. Empoloyee / User data sourced or requested from 3rd party API",
+            "technologies": [
+                "CSS", "JAVASCRIPT", "HTML", "AJAX"
+            ],
+            "project_content": ["Home", "Employee Modal"],
+            "live_link": "https://ptco.github.io/TechDegree-Connect_To_Public_API-Brandon_Durand/",
+            "github_link": "https://github.com/PTCO/TechDegree-Connect_To_Public_API-Brandon_Durand",
+            "image_urls": [
+                "http://localhost:3000/images/Employe_Directory_EmployeesView.png",
+                "http://localhost:3000/images/Employe_Directory_EmployeeView.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Interactive Form",
+            "description": "A interactive form site, for users to register for events at a full web dev conference. Form contains valdiation features to ensure a successful registration.",
+            "technologies": [
+                "CSS", "JAVASCRIPT", "HTML"
+            ],
+            "project_content": ["Home", " Basic Info & Activities", "Credit Card", "Paypal", "BitCoin"],
+            "live_link": "https://ptco.github.io/TechDegree-Interactive_Registration_Form-Brandon_Durand/",
+            "github_link": "https://github.com/PTCO/TechDegree-Interactive_Registration_Form-Brandon_Durand",
+            "image_urls": [
+                "http://localhost:3000/images/Interactive_Form_FullForm.png",
+                "http://localhost:3000/images/Interactive_Form_Basic_Register_Fields.png",
+                "http://localhost:3000/images/Interactive_Form_Credit_Payment_Field.png",
+                "http://localhost:3000/images/Interactive_Form_Paypal_Payment_Field.png",
+                "http://localhost:3000/images/Interactive_Form_Bitcoin_Payment_Field.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Student Search Pagination",
+            "description": "A student search site, with results shown using pagination",
+            "technologies": [
+                "CSS", "JAVASCRIPT", "HTML"
+            ],
+            "project_content": ["Home", "Student Info", "Search Bar"],
+            "live_link": "https://ptco.github.io/TechDgree-Data_Pagination_Filtering-Brandon_Durand/",
+            "github_link": "https://github.com/PTCO/TechDgree-Data_Pagination_Filtering-Brandon_Durand",
+            "image_urls": [
+                "http://localhost:3000/images/Student_Search_Student_Pagination.png",
+                "http://localhost:3000/images/Student_Search_Student_Details.png",
+                "http://localhost:3000/images/Student_Search_Search.png"
+            ]
+        }
+    ]
+}

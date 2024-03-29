@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a.ms-3.btn.btn-dark.w-auto(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+
+        .d-flex.flex-row.align-items-center
+          img.img-fluid.w-auto.rounded.mx-4.rounded-circle(src='http://localhost:3000/images/Logo.png')
+          div.border.border-3.p-3.rounded-pill.d-flex.align-items-center.justify-content-center.name
+            h1.m-0.me-2.p-0.pe-2.h2.border-end.border-3 Brandon Durand
+            h1.m-0.p-0.h2  Full Stack Web Dev
+
+
+        .about-bio
+
+          p I love to learn to new things and apply it in my everday life. This holds true in web development, i love to learn and put into practice new technologies, like a new backend framework taking off in the industry. By applying this knowledge to my development process I create new, interactive and user friendly expereinces on my applications I develop or come into contact with!
+
+
+      .skills-contact-box.box
+        h6.border-bottom.border-3.techTitle.pb-2 Skills
+
+        ul.list-unstyled.row.skils
+          each skills in [{color: "red", skill: "HTML"}, {color: "blue", skill: "CSS"}, {color: "green", skill:"JavaScript"}, {color: "yellow", skill:"Express"}, {color: "purple", skill:"Pug"}, {color: "orange", skill:"Vue.js"}, {color: "lightblue", skill:"Bootstrap"}, {color: "lightgreen", skill:"mongodb"}, {color: "violet", skill:"Git and GitHub"}, {color: "brown", skill:"VS Code"}, {color: "pink", skill:"Accessibility"}, {color: "gray", skill:"OOP"}, {color: "#9898d5", skill:"Fetch and Public APIs"}, {color: "darkgreen", skill:"Node.js"}, ]
+            li.btn.m-1.text-white(style=`background:${skills.color} !important`)= skills.skill
+
+
+        h6.border-bottom.border-3.techTitle.pb-2 Contact Info
+        ul.list-unstyled.contact
+          li.btn.m-1.text-white 469-628-3108
+          li.btn.m-1.text-white durannd101@gmail.com
+
+        a.btn-link.ms-3.btn.btn-dark.w-75(href='https://www.linkedin.com/in/brandon-durand-15950a301/' target="_blank") LinkedIn
+        a.btn-link.ms-3.btn.btn-dark.w-75(href='https://github.com/PTCO' target="_blank") GitHub
+        a.btn-link.ms-3.btn.btn-dark.w-75(href='https://twitter.com/BrandonDurand16' target="_blank") Twitter
+
+    nav.nav
+      a.ms-3.btn.btn-dark.w-auto(href='/')
+        span &larr;
+        |  Back
